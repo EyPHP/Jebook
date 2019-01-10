@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+.body{
+    background-color: #ececec;
+}
+.header{
+    background-color: #FFFFFF;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.header a{
+    border-radius: 3px;
+    padding: 4px 7px;
+    color: currentColor;
+    text-decoration: none;
+}
+.main{
+    padding: 30px 0px;
+}
+.content{
+    width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+}
+.ant-card-body {
+    padding: 24px 32px;
+}
+.msg{
+    border: 1px solid #eee;
+    background-color: #eee;
+    margin-top: 22px;
+}
+input[type=text], textarea {
+    -webkit-appearance: none;
+}
+.ant-input {
+    border: 1px solid #c4cdd5;
+}
+.ant-input-lg {
+    padding: 6px 7px;
+    height: 32px;
+}
+.ant-input {
+    position: relative;
+    display: inline-block;
+    padding: 4px 7px;
+    width: 75%;
+    height: 28px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-left: 10px;
+}
+.line{
+    margin-top: 10px;
+}
+.line_last{
+    margin-top: 10px;
+    padding-left: 18%;
+}
+.line span{
+    width: 16%;
+    text-align: right;
+    display: block;
+    float: left;
+    height:36px;
+    line-height: 36px;
+}
+.form{
+    margin-top: 20px;
+}
+.ant-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.15;
+    padding: 0 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 28px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ant-btn-primary {
+    color: #fff;
+    background-color: #108ee9;
+    border-color: #108ee9;
+}
+.btn-a{
+    color: currentColor;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+    border: 1px solid #00000026;
+}
+textarea{
+    height: 46px;
+    min-height: 110px;
+    max-height: 120px;
+    max-width:75%;
+    min-width: 75%;
+    overflow-y: hidden;
+}
+
