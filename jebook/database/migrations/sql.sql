@@ -112,4 +112,3 @@ CREATE TABLE `je_admin` (
   FULLTEXT KEY `username` (`username`),
   FULLTEXT KEY `email` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
-INSERT `je_admin` VALUES ('1','chenli','8c28874821f20322f4206c1a5f039dae','491126240@qq.com',1539856799,1539856799,1);
